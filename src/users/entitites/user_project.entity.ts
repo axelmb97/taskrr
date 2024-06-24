@@ -1,8 +1,8 @@
-import { ACCESS_LEVEL } from "src/core/constants/roles";
-import { BaseEntity } from "src/core/entitites/base.entity";
+import { ACCESS_LEVEL } from "../../core/constants/roles";
+import { BaseEntity } from "../../core/entitites/base.entity";
 import { Column, Entity, ManyToOne } from "typeorm";
 import { UserEntity } from "./user.entity";
-import { ProjectEntity } from "src/projects/entitites/project.entity";
+import { ProjectEntity } from "../../projects/entitites/project.entity";
 
 @Entity({name: 'users_projects'})
 export class UserProjectEntity extends BaseEntity {

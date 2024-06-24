@@ -1,7 +1,6 @@
-import { ROLE } from "src/core/constants/roles";
-import { BaseEntity } from "src/core/entitites/base.entity";
-import { IUser } from "src/core/interfaces/user.interface";
-import { ProjectEntity } from "src/projects/entitites/project.entity";
+import { ROLE } from "../../core/constants/roles";
+import { BaseEntity } from "../../core/entitites/base.entity";
+import { IUser } from "../../core/interfaces/user.interface";
 import { Column, Entity, OneToMany } from "typeorm";
 import { UserProjectEntity } from "./user_project.entity";
 
